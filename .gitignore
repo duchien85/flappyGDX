@@ -101,13 +101,6 @@ nb-configuration.xml
 /local.properties
 .gradle/
 gradle-app.setting
-/build/
-/android/build/
-/core/build/
-/desktop/build/
-/html/build/
-/ios/build/
-/ios-moe/build/
 
 ## OS Specific
 .DS_Store
@@ -127,10 +120,8 @@ Thumbs.db
 /ios-moe/xcode/native/
 ### Gradle template
 .gradle
-/build/
 
 # Ignore Gradle GUI config
-gradle-app.setting
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
@@ -152,7 +143,6 @@ gradle-app.setting
 *.dex
 
 # Java class files
-*.class
 
 # Generated files
 bin/
@@ -162,7 +152,6 @@ out/
 # release/
 
 # Gradle files
-.gradle/
 build/
 
 # Local configuration file (sdk path, etc)
@@ -181,7 +170,6 @@ proguard/
 captures/
 
 # IntelliJ
-*.iml
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
@@ -274,10 +262,8 @@ cmake-build-*/
 .idea/**/mongoSettings.xml
 
 # File-based project format
-*.iws
 
 # IntelliJ
-out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -289,7 +275,6 @@ atlassian-ide-plugin.xml
 .idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
